@@ -13,11 +13,11 @@
 		A071E45921AD9FEA00A58E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A071E45821AD9FEA00A58E3C /* Assets.xcassets */; };
 		A071E45C21AD9FEA00A58E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A071E45A21AD9FEA00A58E3C /* LaunchScreen.storyboard */; };
 		A071E45F21AD9FEA00A58E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E45E21AD9FEA00A58E3C /* main.m */; };
-		A071E46821ADA00400A58E3C /* UILabel+ConvenientTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E46721ADA00400A58E3C /* UILabel+ConvenientTools.m */; };
 		A071E47A21AE66FC00A58E3C /* NSString+Decimal.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47921AE66FC00A58E3C /* NSString+Decimal.m */; };
 		A071E47D21AE675700A58E3C /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47C21AE675700A58E3C /* NSString+Extension.m */; };
 		A071E48021AE679F00A58E3C /* NSDecimalNumber+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47F21AE679F00A58E3C /* NSDecimalNumber+Extension.m */; };
 		A071E48321AE699A00A58E3C /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E48221AE699A00A58E3C /* NSDate+Extension.m */; };
+		A071E48D21AE817B00A58E3C /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E48C21AE817B00A58E3C /* UILabel+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,6 @@
 		A071E45B21AD9FEA00A58E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A071E45D21AD9FEA00A58E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A071E45E21AD9FEA00A58E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A071E46621ADA00400A58E3C /* UILabel+ConvenientTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ConvenientTools.h"; sourceTree = "<group>"; };
-		A071E46721ADA00400A58E3C /* UILabel+ConvenientTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ConvenientTools.m"; sourceTree = "<group>"; };
 		A071E47821AE66FC00A58E3C /* NSString+Decimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Decimal.h"; sourceTree = "<group>"; };
 		A071E47921AE66FC00A58E3C /* NSString+Decimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Decimal.m"; sourceTree = "<group>"; };
 		A071E47B21AE675700A58E3C /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
@@ -41,6 +39,8 @@
 		A071E47F21AE679F00A58E3C /* NSDecimalNumber+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+Extension.m"; sourceTree = "<group>"; };
 		A071E48121AE699A00A58E3C /* NSDate+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
 		A071E48221AE699A00A58E3C /* NSDate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		A071E48B21AE817B00A58E3C /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		A071E48C21AE817B00A58E3C /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +146,8 @@
 		A071E47721ADA01C00A58E3C /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				A071E46621ADA00400A58E3C /* UILabel+ConvenientTools.h */,
-				A071E46721ADA00400A58E3C /* UILabel+ConvenientTools.m */,
+				A071E48B21AE817B00A58E3C /* UILabel+Extension.h */,
+				A071E48C21AE817B00A58E3C /* UILabel+Extension.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -222,11 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A071E48D21AE817B00A58E3C /* UILabel+Extension.m in Sources */,
 				A071E48021AE679F00A58E3C /* NSDecimalNumber+Extension.m in Sources */,
 				A071E45421AD9FE900A58E3C /* ViewController.m in Sources */,
 				A071E45F21AD9FEA00A58E3C /* main.m in Sources */,
 				A071E45121AD9FE900A58E3C /* AppDelegate.m in Sources */,
-				A071E46821ADA00400A58E3C /* UILabel+ConvenientTools.m in Sources */,
 				A071E47D21AE675700A58E3C /* NSString+Extension.m in Sources */,
 				A071E47A21AE66FC00A58E3C /* NSString+Decimal.m in Sources */,
 				A071E48321AE699A00A58E3C /* NSDate+Extension.m in Sources */,
