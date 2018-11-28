@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SpeedyKit"
-  s.version      = "0.0.1"
+  s.version      = "1.0.1"
   s.summary      = "便捷工具库，目的是提供简化API，减少垃圾代码量，随项目开发过程逐步更新"
 
   # This description is used to generate tags and improve search results.
