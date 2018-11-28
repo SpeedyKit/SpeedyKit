@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   # s.description  = <<-DESC
   #                  DESC
 
-  s.homepage     = "https://github.com/XFNicar/SpeedyKit"
+  s.homepage     = "https://github.com/SpeedyKit/SpeedyKit"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   # Or just: s.author    = "Fei.Xie"
   # s.authors            = { "Fei.Xie" => "xuejingwen25@163.com" }
   # s.social_media_url   = "http://twitter.com/Fei.Xie"
-
+  s.social_media_url   = "https://xfnicar.github.io/"
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If this Pod runs only on iOS or OS X, then specify the platform and
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/XFNicar/SpeedyKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/SpeedyKit/SpeedyKit.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
