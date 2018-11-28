@@ -1,14 +1,15 @@
 //
-//  NSDecimalNumber+ConvenientTools.m
-//  XFConvenientToolKit
+//  NSDecimalNumber+Extension.m
+//  SpeedyKit
 //
-//  Created by YanYi on 2018/11/6.
+//  Created by YanYi on 2018/11/28.
 //  Copyright © 2018 YanYi. All rights reserved.
 //
 
-#import "NSDecimalNumber+ConvenientTools.h"
+#import "NSDecimalNumber+Extension.h"
 
-@implementation NSDecimalNumber (ConvenientTools)
+@implementation NSDecimalNumber (Extension)
+
 
 + (NSDecimalNumberHandler *)amountHandler {
     return  [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundUp
@@ -69,6 +70,7 @@
     NSDecimalNumber *secondDNumber = [NSDecimalNumber decimalNumberWithDecimal:[secondNumber decimalValue]];
     return [firstDNumber decimalNumberByDividingBy:secondDNumber withBehavior:[self amountHandler]];
 }
+
 
 
 @end

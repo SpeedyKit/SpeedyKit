@@ -1,18 +1,14 @@
 //
-//  NSString+ConvenientTools.m
-//  XFConvenientToolKit
+//  NSString+Decimal.m
+//  SpeedyKit
 //
-//  Created by YanYi on 2018/11/27.
+//  Created by YanYi on 2018/11/28.
 //  Copyright © 2018 YanYi. All rights reserved.
 //
 
-#import "NSString+ConvenientTools.h"
+#import "NSString+Decimal.h"
 
-@implementation NSString (ConvenientTools)
-
-+ (NSString *)URLEncoding:(NSString *)URLString {
-    return [URLString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLFragmentAllowedCharacterSet]];
-}
+@implementation NSString (Decimal)
 
 + (NSString *)currencyStringWithDoubleValue:(double)doubleValue {
     NSNumberFormatter *moneyFormatter = [[NSNumberFormatter alloc] init];

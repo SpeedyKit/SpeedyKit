@@ -1,14 +1,14 @@
 //
-//  NSDate+ConvenientTools.m
-//  XFConvenientToolKit
+//  NSDate+Extension.m
+//  SpeedyKit
 //
-//  Created by YanYi on 2018/11/1.
+//  Created by YanYi on 2018/11/28.
 //  Copyright © 2018 YanYi. All rights reserved.
 //
 
-#import "NSDate+ConvenientTools.h"
+#import "NSDate+Extension.h"
 
-@implementation NSDate (ConvenientTools)
+@implementation NSDate (Extension)
 
 + (NSDate *)dateFromDateString:(NSString *)dateString foramtterString:(NSString *)foramtterString {
     NSDateFormatter *format = [[NSDateFormatter alloc] init];

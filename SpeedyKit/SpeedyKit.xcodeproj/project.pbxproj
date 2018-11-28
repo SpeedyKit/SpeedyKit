@@ -14,9 +14,10 @@
 		A071E45C21AD9FEA00A58E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A071E45A21AD9FEA00A58E3C /* LaunchScreen.storyboard */; };
 		A071E45F21AD9FEA00A58E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E45E21AD9FEA00A58E3C /* main.m */; };
 		A071E46821ADA00400A58E3C /* UILabel+ConvenientTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E46721ADA00400A58E3C /* UILabel+ConvenientTools.m */; };
-		A071E47421ADA00C00A58E3C /* NSString+ConvenientTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E46C21ADA00C00A58E3C /* NSString+ConvenientTools.m */; };
-		A071E47521ADA00C00A58E3C /* NSDecimalNumber+ConvenientTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47021ADA00C00A58E3C /* NSDecimalNumber+ConvenientTools.m */; };
-		A071E47621ADA00C00A58E3C /* NSDate+ConvenientTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47321ADA00C00A58E3C /* NSDate+ConvenientTools.m */; };
+		A071E47A21AE66FC00A58E3C /* NSString+Decimal.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47921AE66FC00A58E3C /* NSString+Decimal.m */; };
+		A071E47D21AE675700A58E3C /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47C21AE675700A58E3C /* NSString+Extension.m */; };
+		A071E48021AE679F00A58E3C /* NSDecimalNumber+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47F21AE679F00A58E3C /* NSDecimalNumber+Extension.m */; };
+		A071E48321AE699A00A58E3C /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E48221AE699A00A58E3C /* NSDate+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +33,14 @@
 		A071E45E21AD9FEA00A58E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A071E46621ADA00400A58E3C /* UILabel+ConvenientTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ConvenientTools.h"; sourceTree = "<group>"; };
 		A071E46721ADA00400A58E3C /* UILabel+ConvenientTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ConvenientTools.m"; sourceTree = "<group>"; };
-		A071E46C21ADA00C00A58E3C /* NSString+ConvenientTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ConvenientTools.m"; sourceTree = "<group>"; };
-		A071E46D21ADA00C00A58E3C /* NSString+ConvenientTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ConvenientTools.h"; sourceTree = "<group>"; };
-		A071E46F21ADA00C00A58E3C /* NSDecimalNumber+ConvenientTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+ConvenientTools.h"; sourceTree = "<group>"; };
-		A071E47021ADA00C00A58E3C /* NSDecimalNumber+ConvenientTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+ConvenientTools.m"; sourceTree = "<group>"; };
-		A071E47221ADA00C00A58E3C /* NSDate+ConvenientTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ConvenientTools.h"; sourceTree = "<group>"; };
-		A071E47321ADA00C00A58E3C /* NSDate+ConvenientTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ConvenientTools.m"; sourceTree = "<group>"; };
+		A071E47821AE66FC00A58E3C /* NSString+Decimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Decimal.h"; sourceTree = "<group>"; };
+		A071E47921AE66FC00A58E3C /* NSString+Decimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Decimal.m"; sourceTree = "<group>"; };
+		A071E47B21AE675700A58E3C /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		A071E47C21AE675700A58E3C /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		A071E47E21AE679F00A58E3C /* NSDecimalNumber+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+Extension.h"; sourceTree = "<group>"; };
+		A071E47F21AE679F00A58E3C /* NSDecimalNumber+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+Extension.m"; sourceTree = "<group>"; };
+		A071E48121AE699A00A58E3C /* NSDate+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		A071E48221AE699A00A58E3C /* NSDate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +117,10 @@
 		A071E46B21ADA00C00A58E3C /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				A071E46C21ADA00C00A58E3C /* NSString+ConvenientTools.m */,
-				A071E46D21ADA00C00A58E3C /* NSString+ConvenientTools.h */,
+				A071E47B21AE675700A58E3C /* NSString+Extension.h */,
+				A071E47C21AE675700A58E3C /* NSString+Extension.m */,
+				A071E47821AE66FC00A58E3C /* NSString+Decimal.h */,
+				A071E47921AE66FC00A58E3C /* NSString+Decimal.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -123,8 +128,8 @@
 		A071E46E21ADA00C00A58E3C /* NSDecimalNumber */ = {
 			isa = PBXGroup;
 			children = (
-				A071E46F21ADA00C00A58E3C /* NSDecimalNumber+ConvenientTools.h */,
-				A071E47021ADA00C00A58E3C /* NSDecimalNumber+ConvenientTools.m */,
+				A071E47E21AE679F00A58E3C /* NSDecimalNumber+Extension.h */,
+				A071E47F21AE679F00A58E3C /* NSDecimalNumber+Extension.m */,
 			);
 			path = NSDecimalNumber;
 			sourceTree = "<group>";
@@ -132,8 +137,8 @@
 		A071E47121ADA00C00A58E3C /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				A071E47221ADA00C00A58E3C /* NSDate+ConvenientTools.h */,
-				A071E47321ADA00C00A58E3C /* NSDate+ConvenientTools.m */,
+				A071E48121AE699A00A58E3C /* NSDate+Extension.h */,
+				A071E48221AE699A00A58E3C /* NSDate+Extension.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -217,13 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A071E48021AE679F00A58E3C /* NSDecimalNumber+Extension.m in Sources */,
 				A071E45421AD9FE900A58E3C /* ViewController.m in Sources */,
 				A071E45F21AD9FEA00A58E3C /* main.m in Sources */,
 				A071E45121AD9FE900A58E3C /* AppDelegate.m in Sources */,
-				A071E47421ADA00C00A58E3C /* NSString+ConvenientTools.m in Sources */,
-				A071E47621ADA00C00A58E3C /* NSDate+ConvenientTools.m in Sources */,
-				A071E47521ADA00C00A58E3C /* NSDecimalNumber+ConvenientTools.m in Sources */,
 				A071E46821ADA00400A58E3C /* UILabel+ConvenientTools.m in Sources */,
+				A071E47D21AE675700A58E3C /* NSString+Extension.m in Sources */,
+				A071E47A21AE66FC00A58E3C /* NSString+Decimal.m in Sources */,
+				A071E48321AE699A00A58E3C /* NSDate+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
