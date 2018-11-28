@@ -1,17 +1,19 @@
 //
-//  NSDecimalNumber+ConvenientTools.h
-//  XFConvenientToolKit
+//  NSDecimalNumber+Extension.h
+//  SpeedyKit
 //
-//  Created by YanYi on 2018/11/6.
+//  Created by YanYi on 2018/11/28.
 //  Copyright © 2018 YanYi. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface NSDecimalNumber (ConvenientTools)
+NS_ASSUME_NONNULL_BEGIN
+
+@interface NSDecimalNumber (Extension)
 
 /*
- 默认为 金额计算保留两位小数 
+ 默认为 金额计算保留两位小数
  
  */
 
@@ -37,4 +39,7 @@
 
 + (NSDecimalNumber *)numberByDividingBy:(NSNumber *)firstNumber andNumber:(NSNumber *)secondNumber;
 
+
 @end
+
+NS_ASSUME_NONNULL_END
