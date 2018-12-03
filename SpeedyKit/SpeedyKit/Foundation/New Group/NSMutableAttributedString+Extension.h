@@ -6,11 +6,19 @@
 //  Copyright © 2018 YanYi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSMutableAttributedString (Extension)
+
+// 加中划线
+- (NSMutableAttributedString *)setUnderlineStyle;
+
+// 设置文本颜色
+- (NSMutableAttributedString *)setColor:(UIColor *)color range:(NSRange)range;
+// 设置字体大小
+- (NSMutableAttributedString *)setFont:(UIFont *)font range:(NSRange)range;
 
 @end
 

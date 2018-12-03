@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A0457D0F21B4D79200640C8D /* NSMutableAttributedString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0457D0E21B4D79200640C8D /* NSMutableAttributedString+Extension.m */; };
 		A0457D1321B4EA0B00640C8D /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0457D1221B4EA0B00640C8D /* UIColor+Extension.m */; };
+		A0457D6821B5789E00640C8D /* NSCalendar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0457D6721B5789E00640C8D /* NSCalendar+Extension.m */; };
 		A071E45121AD9FE900A58E3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E45021AD9FE900A58E3C /* AppDelegate.m */; };
 		A071E45421AD9FE900A58E3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E45321AD9FE900A58E3C /* ViewController.m */; };
 		A071E45721AD9FE900A58E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A071E45521AD9FE900A58E3C /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 		A0457D0E21B4D79200640C8D /* NSMutableAttributedString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Extension.m"; sourceTree = "<group>"; };
 		A0457D1121B4EA0B00640C8D /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		A0457D1221B4EA0B00640C8D /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		A0457D6621B5789E00640C8D /* NSCalendar+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Extension.h"; sourceTree = "<group>"; };
+		A0457D6721B5789E00640C8D /* NSCalendar+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Extension.m"; sourceTree = "<group>"; };
 		A071E44C21AD9FE900A58E3C /* SpeedyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A071E44F21AD9FE900A58E3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A071E45021AD9FE900A58E3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 		A071E46A21ADA00C00A58E3C /* NSCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				A0457D6621B5789E00640C8D /* NSCalendar+Extension.h */,
+				A0457D6721B5789E00640C8D /* NSCalendar+Extension.m */,
 			);
 			path = NSCalendar;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				A071E45121AD9FE900A58E3C /* AppDelegate.m in Sources */,
 				A071E47D21AE675700A58E3C /* NSString+Extension.m in Sources */,
 				A0457D1321B4EA0B00640C8D /* UIColor+Extension.m in Sources */,
+				A0457D6821B5789E00640C8D /* NSCalendar+Extension.m in Sources */,
 				A071E47A21AE66FC00A58E3C /* NSString+Decimal.m in Sources */,
 				A071E48321AE699A00A58E3C /* NSDate+Extension.m in Sources */,
 			);
