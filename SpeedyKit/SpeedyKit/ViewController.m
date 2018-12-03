@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIColor+Extension.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIColor *backgroundcolor = [UIColor hexString:@"#00ff00"];
+    self.view.backgroundColor = backgroundcolor;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
