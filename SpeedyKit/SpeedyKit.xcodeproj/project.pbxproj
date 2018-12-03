@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0457D0F21B4D79200640C8D /* NSMutableAttributedString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0457D0E21B4D79200640C8D /* NSMutableAttributedString+Extension.m */; };
+		A0457D1321B4EA0B00640C8D /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0457D1221B4EA0B00640C8D /* UIColor+Extension.m */; };
 		A071E45121AD9FE900A58E3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E45021AD9FE900A58E3C /* AppDelegate.m */; };
 		A071E45421AD9FE900A58E3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E45321AD9FE900A58E3C /* ViewController.m */; };
 		A071E45721AD9FE900A58E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A071E45521AD9FE900A58E3C /* Main.storyboard */; };
@@ -21,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0457D0D21B4D79200640C8D /* NSMutableAttributedString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Extension.h"; sourceTree = "<group>"; };
+		A0457D0E21B4D79200640C8D /* NSMutableAttributedString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Extension.m"; sourceTree = "<group>"; };
+		A0457D1121B4EA0B00640C8D /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		A0457D1221B4EA0B00640C8D /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		A071E44C21AD9FE900A58E3C /* SpeedyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A071E44F21AD9FE900A58E3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A071E45021AD9FE900A58E3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +60,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0457D0C21B4D76800640C8D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				A0457D0D21B4D79200640C8D /* NSMutableAttributedString+Extension.h */,
+				A0457D0E21B4D79200640C8D /* NSMutableAttributedString+Extension.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A0457D1021B4E9F300640C8D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				A0457D1121B4EA0B00640C8D /* UIColor+Extension.h */,
+				A0457D1221B4EA0B00640C8D /* UIColor+Extension.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
 		A071E44321AD9FE900A58E3C = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +115,7 @@
 		A071E46521ADA00400A58E3C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				A0457D1021B4E9F300640C8D /* UIColor */,
 				A071E47721ADA01C00A58E3C /* UILabel */,
 			);
 			path = UIKit;
@@ -99,6 +124,7 @@
 		A071E46921ADA00C00A58E3C /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				A0457D0C21B4D76800640C8D /* New Group */,
 				A071E46A21ADA00C00A58E3C /* NSCalendar */,
 				A071E46B21ADA00C00A58E3C /* NSString */,
 				A071E46E21ADA00C00A58E3C /* NSDecimalNumber */,
@@ -223,11 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A071E48D21AE817B00A58E3C /* UILabel+Extension.m in Sources */,
+				A0457D0F21B4D79200640C8D /* NSMutableAttributedString+Extension.m in Sources */,
 				A071E48021AE679F00A58E3C /* NSDecimalNumber+Extension.m in Sources */,
 				A071E45421AD9FE900A58E3C /* ViewController.m in Sources */,
 				A071E45F21AD9FEA00A58E3C /* main.m in Sources */,
 				A071E45121AD9FE900A58E3C /* AppDelegate.m in Sources */,
 				A071E47D21AE675700A58E3C /* NSString+Extension.m in Sources */,
+				A0457D1321B4EA0B00640C8D /* UIColor+Extension.m in Sources */,
 				A071E47A21AE66FC00A58E3C /* NSString+Decimal.m in Sources */,
 				A071E48321AE699A00A58E3C /* NSDate+Extension.m in Sources */,
 			);
