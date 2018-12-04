@@ -31,4 +31,33 @@
     return YES;
 }
 
+
++ (DateSinceCurrentAt)getDateSinceWithDateString:(NSString *)dateString {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    NSDate *currentDate = [NSDate date];
+    NSString *currentDateString = [formatter stringFromDate:currentDate];
+    NSTimeInterval  oneDate = 24*60*60*1;  //24小时的长度
+    NSDate * nextDate = [[NSDate alloc]initWithTimeInterval:+oneDate sinceDate:currentDate];
+    NSString *nextDateString = [formatter stringFromDate:nextDate];
+    NSDate *lastDate = [[NSDate alloc]initWithTimeInterval:-oneDate sinceDate:currentDate];
+    NSString *lastDateString = [formatter stringFromDate:lastDate];
+    if ([currentDateString compare:dateString] == NSOrderedSame) {
+        return DateSinceCurrentAtSame;
+    } else if([nextDateString compare:dateString] == NSOrderedSame) {
+        return DateSinceCurrentAtNext;
+    } else  if ([lastDateString compare:dateString]){
+        return DateSinceCurrentAtLast;
+    } else {
+        return DateSinceCurrentAtDef;
+    }
+}
+
++ (DateSinceCurrentAt)getDateSinceWithDate:(NSDate *)date {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    NSString *dateString = [formatter stringFromDate:date];
+    return [self getDateSinceWithDateString:dateString];
+}
+
 @end

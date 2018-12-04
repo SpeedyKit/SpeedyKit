@@ -10,6 +10,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSUInteger, DateSinceCurrentAt) {
+    DateSinceCurrentAtSame,     // 今天
+    DateSinceCurrentAtNext,     // 明天
+    DateSinceCurrentAtLast,     // 昨天
+    DateSinceCurrentAtDef       // 其他日期
+};
+
 @interface NSDate (Extension)
 
 
@@ -35,6 +42,14 @@ NS_ASSUME_NONNULL_BEGIN
  @return return value description
  */
 + (BOOL)date:(NSDate*)date isBetweenDate:(NSDate*)beginDate andDate:(NSDate*)endDate;
+
+
+
+// 判断给定日期字符串是今天、明天 还是其他日期
++ (DateSinceCurrentAt)getDateSinceWithDateString:(NSString *)dateString;
+
+// 判断给定日期是今天、明天 还是其他日期
++ (DateSinceCurrentAt)getDateSinceWithDate:(NSDate *)date;
 
 
 @end
