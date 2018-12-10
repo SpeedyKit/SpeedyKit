@@ -60,4 +60,47 @@
     return [self getDateSinceWithDateString:dateString];
 }
 
+
+- (NSDate *)nextDate {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    NSTimeInterval  oneDay = 24*60*60*1;  //1天的长度
+    return [[NSDate alloc]initWithTimeInterval:+oneDay sinceDate:self];
+}
+
+- (NSDate *)nextDays:(NSInteger)days {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    NSTimeInterval  oneDay = 24*60*60*days;  //1天的长度
+    return [[NSDate alloc]initWithTimeInterval:+oneDay sinceDate:self];
+}
+
+- (NSDate *)lastDate {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    //NSDate* theDate;
+    NSTimeInterval  oneDay = 24*60*60*1;  //1天的长度
+    return [[NSDate alloc]initWithTimeInterval:-oneDay sinceDate:self];
+}
+
+- (NSDate *)lastDays:(NSInteger)days {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"yyyy-MM-dd"];
+    //NSDate* theDate;
+    NSTimeInterval  oneDay = 24*60*60*days;  //1天的长度
+    return [[NSDate alloc]initWithTimeInterval:-oneDay sinceDate:self];
+}
+
+- (NSString *)dateStringWithCNFormatter:(NSString *)formatter {
+    if (formatter == nil) {
+        return nil;
+    }
+    NSDateFormatter *formatter_CN = [[NSDateFormatter alloc] init];
+    formatter_CN.locale = [[NSLocale alloc]initWithLocaleIdentifier:@"zh_CN"];
+    formatter_CN.dateStyle = kCFDateFormatterFullStyle;
+    [formatter_CN setDateFormat:@"MM月dd日"];
+    return [formatter_CN stringFromDate:self];
+}
+
+
 @end
