@@ -21,6 +21,7 @@
 		A071E48021AE679F00A58E3C /* NSDecimalNumber+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47F21AE679F00A58E3C /* NSDecimalNumber+Extension.m */; };
 		A071E48321AE699A00A58E3C /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E48221AE699A00A58E3C /* NSDate+Extension.m */; };
 		A071E48D21AE817B00A58E3C /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E48C21AE817B00A58E3C /* UILabel+Extension.m */; };
+		D412AD79226409C700EAA1F3 /* UIDatePicker+BirthDay.m in Sources */ = {isa = PBXBuildFile; fileRef = D412AD78226409C700EAA1F3 /* UIDatePicker+BirthDay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		A071E48221AE699A00A58E3C /* NSDate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		A071E48B21AE817B00A58E3C /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
 		A071E48C21AE817B00A58E3C /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		D412AD77226409C700EAA1F3 /* UIDatePicker+BirthDay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDatePicker+BirthDay.h"; sourceTree = "<group>"; };
+		D412AD78226409C700EAA1F3 /* UIDatePicker+BirthDay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDatePicker+BirthDay.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 		A071E46521ADA00400A58E3C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D412AD762264097400EAA1F3 /* UIPickerView */,
 				A0457D1021B4E9F300640C8D /* UIColor */,
 				A071E47721ADA01C00A58E3C /* UILabel */,
 			);
@@ -181,6 +185,15 @@
 				A071E48C21AE817B00A58E3C /* UILabel+Extension.m */,
 			);
 			path = UILabel;
+			sourceTree = "<group>";
+		};
+		D412AD762264097400EAA1F3 /* UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				D412AD77226409C700EAA1F3 /* UIDatePicker+BirthDay.h */,
+				D412AD78226409C700EAA1F3 /* UIDatePicker+BirthDay.m */,
+			);
+			path = UIPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 				A0457D1321B4EA0B00640C8D /* UIColor+Extension.m in Sources */,
 				A0457D6821B5789E00640C8D /* NSCalendar+Extension.m in Sources */,
 				A071E47A21AE66FC00A58E3C /* NSString+Decimal.m in Sources */,
+				D412AD79226409C700EAA1F3 /* UIDatePicker+BirthDay.m in Sources */,
 				A071E48321AE699A00A58E3C /* NSDate+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9NZM62PV6;
+				DEVELOPMENT_TEAM = NB834M3BNU;
 				INFOPLIST_FILE = SpeedyKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,7 +428,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YanYi.SpeedyKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -423,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9NZM62PV6;
+				DEVELOPMENT_TEAM = NB834M3BNU;
 				INFOPLIST_FILE = SpeedyKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -431,7 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YanYi.SpeedyKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
