@@ -52,6 +52,19 @@ typedef NS_ENUM(NSUInteger, DateSinceCurrentAt) {
 + (DateSinceCurrentAt)getDateSinceWithDate:(NSDate *)date;
 
 
+// 下一天
+- (NSDate *)nextDate;
+// 往后 N 天
+- (NSDate *)nextDays:(NSInteger)days;
+
+// 上一天
+- (NSDate *)lastDate;
+// 往前 N 天
+- (NSDate *)lastDays:(NSInteger)days;
+
+// 获取中文日期
+- (NSString *)dateStringWithCNFormatter:(NSString *)formatter;
+
 @end
 
 NS_ASSUME_NONNULL_END

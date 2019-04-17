@@ -21,6 +21,23 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)weekDayStringFromDate:(NSDate *)date;
 
 
+//根据date获取日
++ (NSInteger)convertDateToDay:(NSDate *)date;
+
+//根据date获取月
++ (NSInteger)convertDateToMonth:(NSDate *)date ;
+
+//根据date获取年
++ (NSInteger)convertDateToYear:(NSDate *)date ;
+
+//根据date获取当月周几 (美国时间周日-周六为 1-7,改为0-6方便计算)
++ (NSInteger)convertDateToWeekDay:(NSDate *)date ;
+
+//根据date获取当月周几
++ (NSInteger)convertDateToFirstWeekDay:(NSDate *)date ;
+
+//根据date获取当月总天数
++ (NSInteger)convertDateToTotalDays:(NSDate *)date ;
 
 @end
 
