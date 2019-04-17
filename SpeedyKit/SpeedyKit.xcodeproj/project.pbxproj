@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4752D59D51765CE2B083F8B0 /* libPods-SpeedyKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77881D0A93664FB146970B08 /* libPods-SpeedyKit.a */; };
 		A0457D0F21B4D79200640C8D /* NSMutableAttributedString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0457D0E21B4D79200640C8D /* NSMutableAttributedString+Extension.m */; };
 		A0457D1321B4EA0B00640C8D /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0457D1221B4EA0B00640C8D /* UIColor+Extension.m */; };
 		A0457D6821B5789E00640C8D /* NSCalendar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0457D6721B5789E00640C8D /* NSCalendar+Extension.m */; };
@@ -21,10 +22,17 @@
 		A071E48021AE679F00A58E3C /* NSDecimalNumber+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E47F21AE679F00A58E3C /* NSDecimalNumber+Extension.m */; };
 		A071E48321AE699A00A58E3C /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E48221AE699A00A58E3C /* NSDate+Extension.m */; };
 		A071E48D21AE817B00A58E3C /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A071E48C21AE817B00A58E3C /* UILabel+Extension.m */; };
+		A0B182B122676F47001746A1 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B182B022676F47001746A1 /* NSString+Hash.m */; };
+		A0B182B422677031001746A1 /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B182B322677031001746A1 /* NSString+DES.m */; };
+		A0B182B722677144001746A1 /* NSString+UINib.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B182B622677144001746A1 /* NSString+UINib.m */; };
+		A0B182BB226778AC001746A1 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B182BA226778AC001746A1 /* UIImage+Extension.m */; };
 		D412AD79226409C700EAA1F3 /* UIDatePicker+BirthDay.m in Sources */ = {isa = PBXBuildFile; fileRef = D412AD78226409C700EAA1F3 /* UIDatePicker+BirthDay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		028181F42A5914BE1ECD9F7F /* Pods-SpeedyKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedyKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedyKit/Pods-SpeedyKit.debug.xcconfig"; sourceTree = "<group>"; };
+		433496CB72331C2A06A07A31 /* Pods-SpeedyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedyKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedyKit/Pods-SpeedyKit.release.xcconfig"; sourceTree = "<group>"; };
+		77881D0A93664FB146970B08 /* libPods-SpeedyKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpeedyKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0457D0D21B4D79200640C8D /* NSMutableAttributedString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Extension.h"; sourceTree = "<group>"; };
 		A0457D0E21B4D79200640C8D /* NSMutableAttributedString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Extension.m"; sourceTree = "<group>"; };
 		A0457D1121B4EA0B00640C8D /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
@@ -51,6 +59,14 @@
 		A071E48221AE699A00A58E3C /* NSDate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		A071E48B21AE817B00A58E3C /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
 		A071E48C21AE817B00A58E3C /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		A0B182AF22676F47001746A1 /* NSString+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		A0B182B022676F47001746A1 /* NSString+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		A0B182B222677031001746A1 /* NSString+DES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
+		A0B182B322677031001746A1 /* NSString+DES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
+		A0B182B522677144001746A1 /* NSString+UINib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+UINib.h"; sourceTree = "<group>"; };
+		A0B182B622677144001746A1 /* NSString+UINib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+UINib.m"; sourceTree = "<group>"; };
+		A0B182B9226778AC001746A1 /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		A0B182BA226778AC001746A1 /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		D412AD77226409C700EAA1F3 /* UIDatePicker+BirthDay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDatePicker+BirthDay.h"; sourceTree = "<group>"; };
 		D412AD78226409C700EAA1F3 /* UIDatePicker+BirthDay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDatePicker+BirthDay.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,12 +76,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4752D59D51765CE2B083F8B0 /* libPods-SpeedyKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DD7FEFCDEA3382C38DEEE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77881D0A93664FB146970B08 /* libPods-SpeedyKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0457D0C21B4D76800640C8D /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +114,8 @@
 			children = (
 				A071E44E21AD9FE900A58E3C /* SpeedyKit */,
 				A071E44D21AD9FE900A58E3C /* Products */,
+				E25BFA4DBF74A9E6B7A9C941 /* Pods */,
+				7DD7FEFCDEA3382C38DEEE16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +148,7 @@
 		A071E46521ADA00400A58E3C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				A0B182B82267785F001746A1 /* UIImage */,
 				D412AD762264097400EAA1F3 /* UIPickerView */,
 				A0457D1021B4E9F300640C8D /* UIColor */,
 				A071E47721ADA01C00A58E3C /* UILabel */,
@@ -156,6 +184,12 @@
 				A071E47C21AE675700A58E3C /* NSString+Extension.m */,
 				A071E47821AE66FC00A58E3C /* NSString+Decimal.h */,
 				A071E47921AE66FC00A58E3C /* NSString+Decimal.m */,
+				A0B182AF22676F47001746A1 /* NSString+Hash.h */,
+				A0B182B022676F47001746A1 /* NSString+Hash.m */,
+				A0B182B222677031001746A1 /* NSString+DES.h */,
+				A0B182B322677031001746A1 /* NSString+DES.m */,
+				A0B182B522677144001746A1 /* NSString+UINib.h */,
+				A0B182B622677144001746A1 /* NSString+UINib.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -187,6 +221,15 @@
 			path = UILabel;
 			sourceTree = "<group>";
 		};
+		A0B182B82267785F001746A1 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				A0B182B9226778AC001746A1 /* UIImage+Extension.h */,
+				A0B182BA226778AC001746A1 /* UIImage+Extension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 		D412AD762264097400EAA1F3 /* UIPickerView */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +239,15 @@
 			path = UIPickerView;
 			sourceTree = "<group>";
 		};
+		E25BFA4DBF74A9E6B7A9C941 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				028181F42A5914BE1ECD9F7F /* Pods-SpeedyKit.debug.xcconfig */,
+				433496CB72331C2A06A07A31 /* Pods-SpeedyKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A071E46221AD9FEA00A58E3C /* Build configuration list for PBXNativeTarget "SpeedyKit" */;
 			buildPhases = (
+				5097605C431407D2176D87B0 /* [CP] Check Pods Manifest.lock */,
 				A071E44821AD9FE900A58E3C /* Sources */,
 				A071E44921AD9FE900A58E3C /* Frameworks */,
 				A071E44A21AD9FE900A58E3C /* Resources */,
@@ -261,18 +314,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5097605C431407D2176D87B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedyKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A071E44821AD9FE900A58E3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B182B422677031001746A1 /* NSString+DES.m in Sources */,
 				A071E48D21AE817B00A58E3C /* UILabel+Extension.m in Sources */,
 				A0457D0F21B4D79200640C8D /* NSMutableAttributedString+Extension.m in Sources */,
+				A0B182B722677144001746A1 /* NSString+UINib.m in Sources */,
 				A071E48021AE679F00A58E3C /* NSDecimalNumber+Extension.m in Sources */,
 				A071E45421AD9FE900A58E3C /* ViewController.m in Sources */,
 				A071E45F21AD9FEA00A58E3C /* main.m in Sources */,
+				A0B182BB226778AC001746A1 /* UIImage+Extension.m in Sources */,
 				A071E45121AD9FE900A58E3C /* AppDelegate.m in Sources */,
 				A071E47D21AE675700A58E3C /* NSString+Extension.m in Sources */,
+				A0B182B122676F47001746A1 /* NSString+Hash.m in Sources */,
 				A0457D1321B4EA0B00640C8D /* UIColor+Extension.m in Sources */,
 				A0457D6821B5789E00640C8D /* NSCalendar+Extension.m in Sources */,
 				A071E47A21AE66FC00A58E3C /* NSString+Decimal.m in Sources */,
@@ -417,6 +495,7 @@
 		};
 		A071E46321AD9FEA00A58E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028181F42A5914BE1ECD9F7F /* Pods-SpeedyKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -434,6 +513,7 @@
 		};
 		A071E46421AD9FEA00A58E3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433496CB72331C2A06A07A31 /* Pods-SpeedyKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
